@@ -3,7 +3,7 @@
 # implantar-rm93332.sh — DroneVision na AWS (Free Tier)
 #
 # Cria e configura toda a infraestrutura com a AWS CLI e publica a aplicação
-# no AWS Elastic Beanstalk. Executado em um terminal Bash com a AWS CLI.
+# no AWS Elastic Beanstalk. Executado no AWS CloudShell (Bash) com a AWS CLI.
 #
 #   Uso:  bash implantar-rm93332.sh            (usa o RM definido abaixo)
 #         bash implantar-rm93332.sh rm123456   (RM passado como argumento)

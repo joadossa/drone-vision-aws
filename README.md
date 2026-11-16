@@ -6,7 +6,7 @@ as etiquetas (tags) e os objetos identificados na imagem.
 - **Hospedagem:** AWS Elastic Beanstalk (Python 3.13, Amazon Linux 2023, 1 instância do Free Tier, t3.micro)
 - **Visão computacional:** Amazon Rekognition `DetectLabels` (etiquetas + objetos com posição)
 - **Descrição em texto:** Amazon Bedrock, modelo Amazon Nova 2 Lite (`us.amazon.nova-2-lite-v1:0`)
-- **Infraestrutura e deploy:** script Bash com AWS CLI
+- **Infraestrutura e deploy:** script Bash com AWS CLI, executado no AWS CloudShell
 
 ## Free Tier
 
@@ -37,7 +37,7 @@ Cada análise custa uma fração de centavo. Rode `destruir-rm93332.sh` depois d
 
 ## Como publicar
 
-Em um terminal Bash com a AWS CLI configurada:
+No AWS CloudShell (Bash), com a AWS CLI:
 
 ```bash
 git clone https://github.com/joadossa/drone-vision-aws.git
